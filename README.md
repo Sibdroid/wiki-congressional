@@ -1,39 +1,198 @@
 # wiki-congressional
 Making maps of US elections by congressional districts for Wikipedia. States with too few congressional districts are excluded, unless they officially split their votes (Maine and Nebraska)
 
-1. 🟢 - correct, uploaded (36/60).
-2. 🟡 - not uploaded yet (15/60).
-3. 🔵 - uploaded by someone else (9/60).
+1. 🟢 - correct data/geodata, uploaded (41/60).
+2. 🟡 - not uploaded yet (10/60).
+3. 🔵 - uploaded by someone else (7/60).
+4. 🟣 - incorrect data/geodata, uploaded by someone else (2/60).
 
 <!-- -->
 
-1. AL - 🟡🟢
-2. AZ - 🟢🟢
-3. CA - 🟢🔵
-4. CO - 🟡🟡
-5. FL - 🟢🟢
-6. GA - 🟢🟢
-7. IL - 🟢🟢
-8. IN - 🟡🟡
-9. KY - 🟢🟢
-10. LA - 🟢🟢
-11. ME - 🔵🔵 - officially splits votes
-12. MD - 🟡🟡
-13. MA - 🟢🟢
-14. MI - 🟢🟢
-15. MN - 🟡🟡
-16. MO - 🟢🟢
-17. NE - 🔵🔵 - officially splits votes
-18. NJ - 🟡🟢
-19. NY - 🟢🟢
-20. NC - 🔵🔵 - incorrect geodata
-21. OH - 🟡🟢
-22. OK - 🟡🟡
-23. OR - 🟢🟢
-24. PA - 🔵🔵
-25. SC - 🟢🟢
-26. TN - 🟢🟢
-27. TX - 🟢🟢
-28. VA - 🟢🟢
-29. WA - 🟢🟢
-30. WI - 🟡🟡
+<table>
+  <tr>
+      <th>State</th>
+      <th>2016</th>
+      <th>2020</th>
+      <th>Note</th>
+  </tr>
+  <tr>
+        <td>AL</td>
+        <td>🟡</td>
+        <td>🟢</td>
+        <td></td>
+  </tr>
+  <tr>
+        <td>AZ</td>
+        <td>🟢</td>
+        <td>🟢</td>
+        <td></td>    
+  </tr>
+  <tr>
+        <td>CA</td>
+        <td>🟢</td>
+        <td>🔵</td>
+        <td></td>    
+  </tr>
+  <tr>
+        <td>CO</td>
+        <td>🟡</td>
+        <td>🟡</td>
+        <td></td>        
+  </tr>
+  <tr>
+        <td>FL</td>
+        <td>🟢</td>
+        <td>🟢</td>
+        <td></td>      
+  </tr>
+  <tr>
+        <td>GA</td>
+        <td>🟢</td>
+        <td>🟢</td>
+        <td></td>     
+  </tr>
+  <tr>
+        <td>IL</td>
+        <td>🟢</td>
+        <td>🟢</td>
+        <td></td>     
+  </tr>
+  <tr>
+        <td>IN</td>
+        <td>🟡</td>
+        <td>🟡</td>
+        <td></td>     
+  </tr>
+  <tr>
+        <td>KY</td>
+        <td>🟢</td>
+        <td>🟢</td>
+        <td></td>     
+  </tr>
+  <tr>
+        <td>LA</td>
+        <td>🟢</td>
+        <td>🟢</td>
+        <td></td>      
+  </tr>
+  <tr>
+        <td>ME</td>
+        <td>🔵</td>
+        <td>🔵</td>
+        <td>Officially splits votes.</td>      
+  </tr>
+  <tr>
+        <td>MD</td>
+        <td>🟡</td>
+        <td>🟡</td>
+        <td></td>  
+  </tr>
+  <tr>
+        <td>MA</td>
+        <td>🟢</td>
+        <td>🟢</td>
+        <td></td>  
+  </tr>
+  <tr>
+        <td>MI</td>
+        <td>🟢</td>
+        <td>🟢</td>
+        <td></td> 
+  </tr>
+  <tr>
+        <td>MN</td>
+        <td>🟡</td>
+        <td>🟡</td>
+        <td></td> 
+  </tr>
+  <tr>
+        <td>MO</td>
+        <td>🟢</td>
+        <td>🟢</td>
+        <td></td> 
+  </tr>
+  <tr>
+        <td>NE</td>
+        <td>🔵</td>
+        <td>🔵</td>
+        <td>Officially splits votes.</td> 
+  </tr>
+  <tr>
+        <td>NJ</td>
+        <td>🟢</td>
+        <td>🟢</td>
+        <td></td> 
+  </tr>
+  <tr>
+        <td>NY</td>
+        <td>🟢</td>
+        <td>🟢</td>
+        <td></td> 
+  </tr>
+  <tr>
+        <td>NC</td>
+        <td>🟣</td>
+        <td>🟣</td>
+        <td>Incorrect geodata.</td> 
+  </tr>
+  <tr>
+        <td>OH</td>
+        <td>🟡</td>
+        <td>🟢</td>
+        <td></td> 
+  </tr>
+  <tr>
+        <td>OK</td>
+        <td>🟢</td>
+        <td>🟢</td>
+        <td></td> 
+  </tr>
+  <tr>
+        <td>OR</td>
+        <td>🟢</td>
+        <td>🟢</td>
+        <td></td> 
+  </tr>
+  <tr>
+        <td>PA</td>
+        <td>🔵</td>
+        <td>🔵</td>
+        <td></td> 
+  </tr>
+  <tr>
+        <td>SC</td>
+        <td>🟢</td>
+        <td>🟢</td>
+        <td></td> 
+  </tr>
+  <tr>
+        <td>TN</td>
+        <td>🟢</td>
+        <td>🟢</td>
+        <td></td> 
+  </tr>
+  <tr>
+        <td>TX</td>
+        <td>🟢</td>
+        <td>🟢</td>
+        <td></td> 
+  </tr>
+  <tr>
+        <td>VA</td>
+        <td>🟢</td>
+        <td>🟢</td>
+        <td></td> 
+  </tr>
+  <tr>
+        <td>WA</td>
+        <td>🟢</td>
+        <td>🟢</td>
+        <td></td> 
+  </tr>
+  <tr>
+        <td>WI</td>
+        <td>🟢</td>
+        <td>🟢</td>
+        <td></td> 
+  </tr>
+</table>
