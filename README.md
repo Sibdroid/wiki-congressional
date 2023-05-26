@@ -1,8 +1,10 @@
 # wiki-congressional
 Making maps of US elections by congressional districts for Wikipedia. States with too few congressional districts are excluded, unless they officially split their votes (Maine and Nebraska)
 
-1. 🟢 - correct data/geodata, uploaded (48/60).
-2. 🟡 - not uploaded yet (3/60).
+<h3><strong>26-05-2023 update: finished the job for 2016 and 2020 results, 51 maps successfully updated.</strong></h3>
+
+1. 🟢 - correct data/geodata, uploaded (51/60).
+2. 🟡 - not uploaded yet (0/60).
 3. 🔵 - uploaded by someone else (7/60).
 4. 🟣 - incorrect data/geodata, uploaded by someone else (2/60).
 
@@ -17,7 +19,7 @@ Making maps of US elections by congressional districts for Wikipedia. States wit
   </tr>
   <tr>
         <td>AL</td>
-        <td>🟡</td>
+        <td>🟢</td>
         <td>🟢</td>
         <td></td>
   </tr>
@@ -59,8 +61,8 @@ Making maps of US elections by congressional districts for Wikipedia. States wit
   </tr>
   <tr>
         <td>IN</td>
-        <td>🟡</td>
-        <td>🟡</td>
+        <td>🟢</td>
+        <td>🟢</td>
         <td></td>     
   </tr>
   <tr>
